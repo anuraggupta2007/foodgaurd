@@ -1,0 +1,488 @@
+▲ Next.js 16.3.0 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.118:3000
+✓ Ready in 2.4s
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: \\?\C:\Users\admin\Desktop\foodsafety\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node is not a valid Win32 application.
+\\?\C:\Users\admin\Desktop\foodsafety\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+✓ Running next.config.ts took 1720ms
+  Skipping creating a lockfile at C:\Users\admin\Desktop\foodsafety\.next\dev\lock because we're using WASM bindings
+
+○ Compiling / ...
+ HEAD / 200 in 269ms (next.js: 31ms, application-code: 238ms)
+ HEAD / 200 in 203ms (next.js: 15ms, application-code: 187ms)
+○ Compiling /login ...
+ HEAD /login 200 in 11.2s (next.js: 10.2s, application-code: 941ms)
+○ Compiling /onboarding ...
+ HEAD /onboarding 200 in 4.3s (next.js: 3.6s, application-code: 686ms)
+ HEAD /scan 200 in 4.0s (next.js: 3.3s, application-code: 729ms)
+ GET / 200 in 2.5s (next.js: 206ms, application-code: 2.3s)
+○ Compiling /analysis ...
+ HEAD /analysis?barcode=8901234567890 200 in 8.2s (next.js: 7.5s, application-code: 674ms)
+○ Compiling /search ...
+ GET /scan?open=camera&mode=barcode 200 in 10.1s (next.js: 7.6s, application-code: 2.5s)
+ GET / 200 in 189ms (next.js: 54ms, application-code: 135ms)
+ HEAD / 200 in 438ms (next.js: 18ms, application-code: 419ms)
+ HEAD /login 200 in 170ms (next.js: 27ms, application-code: 142ms)
+ HEAD /onboarding 200 in 161ms (next.js: 23ms, application-code: 138ms)
+ HEAD /scan 200 in 184ms (next.js: 12ms, application-code: 171ms)
+ HEAD /analysis?barcode=8901234567890 200 in 168ms (next.js: 25ms, application-code: 143ms)
+ HEAD /search 200 in 134ms (next.js: 8ms, application-code: 126ms)
+○ Compiling /history ...
+ GET /history 200 in 7.7s (next.js: 7.5s, application-code: 191ms)
+ GET / 200 in 93ms (next.js: 35ms, application-code: 58ms)
+ GET /scan?open=camera&mode=barcode 200 in 171ms (next.js: 52ms, application-code: 118ms)
+ GET / 200 in 567ms (next.js: 30ms, application-code: 538ms)
+○ Compiling /search ...
+ GET /search 200 in 4.5s (next.js: 4.3s, application-code: 222ms)
+ GET /history 200 in 481ms (next.js: 32ms, application-code: 449ms)
+ GET / 200 in 434ms (next.js: 239ms, application-code: 195ms)
+ GET /profile 200 in 3.4s (next.js: 3.2s, application-code: 138ms)
+ GET / 200 in 257ms (next.js: 23ms, application-code: 234ms)
+ GET / 200 in 1519ms (next.js: 451ms, application-code: 1068ms)
+ GET / 200 in 202ms (next.js: 44ms, application-code: 157ms)
+⨯ ./src/components/analysis/AlternativeIngredients.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\AlternativeIngredients.tsx'
+
+Import trace for requested module:
+./src/components/analysis/AlternativeIngredients.tsx
+./src/components/analysis/ProductAnalysisPage.tsx
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/AlternativeIngredients.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\AlternativeIngredients.tsx'
+
+Import trace for requested module:
+./src/components/analysis/AlternativeIngredients.tsx
+./src/components/analysis/ProductAnalysisPage.tsx 
+[browser] ./src/components/analysis/AnalysisActions.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\AnalysisActions.tsx'
+
+Import trace for requested module:
+./src/components/analysis/AnalysisActions.tsx
+./src/components/analysis/ProductAnalysisPage.tsx 
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+⨯ ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx
+[browser] ./src/components/analysis/ProductAnalysisPage.tsx
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\foodsafety\src\components\analysis\ProductAnalysisPage.tsx'
+
+Import trace for requested module:
+./src/components/analysis/ProductAnalysisPage.tsx 
+ GET / 200 in 303ms (next.js: 80ms, application-code: 224ms)
+ GET / 200 in 298ms (next.js: 47ms, application-code: 251ms)
+ GET / 200 in 175ms (next.js: 25ms, application-code: 150ms)
+ GET / 200 in 536ms (next.js: 194ms, application-code: 342ms)
+ GET / 200 in 209ms (next.js: 34ms, application-code: 175ms)
+ GET / 200 in 258ms (next.js: 91ms, application-code: 168ms)
+ GET / 200 in 1075ms (next.js: 875ms, application-code: 200ms)
+ GET / 200 in 734ms (next.js: 517ms, application-code: 217ms)
+ GET / 200 in 344ms (next.js: 213ms, application-code: 131ms)
+ GET / 200 in 425ms (next.js: 198ms, application-code: 227ms)
+ GET / 200 in 957ms (next.js: 657ms, application-code: 300ms)
+ GET / 200 in 323ms (next.js: 217ms, application-code: 106ms)
+ GET / 200 in 1333ms (next.js: 496ms, application-code: 837ms)
+ GET / 200 in 629ms (next.js: 446ms, application-code: 183ms)
+⨯ Error: Manifest file is empty
+    at ignore-listed frames {
+  page: '/'
+}
+○ Compiling /_error ...
+ GET / 500 in 53s (next.js: 46s, application-code: 6.4s)
+ GET /scan?open=camera&mode=barcode 200 in 37.0s (next.js: 36.5s, application-code: 454ms)
+ GET /search 200 in 22.9s (next.js: 22.1s, application-code: 781ms)
+[browser] Uncaught Error: Manifest file is empty
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 1876ms (next.js: 55ms, application-code: 1821ms)
+ GET / 200 in 983ms (next.js: 16ms, application-code: 967ms)
+ GET / 200 in 1898ms (next.js: 987ms, application-code: 911ms)
+ GET / 200 in 81ms (next.js: 18ms, application-code: 64ms)
+ GET /scan?open=camera&mode=barcode 200 in 374ms (next.js: 23ms, application-code: 351ms)
+ GET / 200 in 595ms (next.js: 65ms, application-code: 530ms)
+ GET / 200 in 28.3s (next.js: 27.9s, application-code: 454ms)
+ GET / 200 in 36.2s (next.js: 35.9s, application-code: 234ms)
+ GET / 200 in 73s (next.js: 73s, application-code: 121ms)
+ GET / 200 in 145ms (next.js: 15ms, application-code: 130ms)
+ GET /history 200 in 531ms (next.js: 212ms, application-code: 319ms)
+○ Compiling /profile ...
+ GET /profile 200 in 9.2s (next.js: 8.9s, application-code: 338ms)
+ GET /profile 200 in 154ms (next.js: 18ms, application-code: 136ms)
+ GET / 200 in 345ms (next.js: 28ms, application-code: 316ms)
+ GET / 200 in 1103ms (next.js: 782ms, application-code: 321ms)
+ GET / 200 in 1888ms (next.js: 1700ms, application-code: 188ms)
+ GET / 200 in 1199ms (next.js: 828ms, application-code: 370ms)
+ GET /history 200 in 13.7s (next.js: 13.2s, application-code: 509ms)
+ GET /history 200 in 308ms (next.js: 26ms, application-code: 281ms)
+ GET /history 200 in 989ms (next.js: 753ms, application-code: 236ms)
+ GET / 200 in 2.1s (next.js: 502ms, application-code: 1567ms)
+ GET / 200 in 2.3s (next.js: 2.1s, application-code: 262ms)
+ GET / 200 in 404ms (next.js: 249ms, application-code: 155ms)
+ GET / 200 in 186ms (next.js: 18ms, application-code: 168ms)
+ GET / 200 in 105ms (next.js: 15ms, application-code: 90ms)
+ GET / 200 in 95ms (next.js: 12ms, application-code: 83ms)
+ GET / 200 in 1813ms (next.js: 864ms, application-code: 949ms)
+ GET / 200 in 715ms (next.js: 543ms, application-code: 172ms)
+ GET / 200 in 163ms (next.js: 17ms, application-code: 145ms)
+ GET /search 200 in 9.3s (next.js: 601ms, application-code: 8.7s)
+ GET / 200 in 1415ms (next.js: 966ms, application-code: 449ms)
+ GET / 200 in 875ms (next.js: 671ms, application-code: 203ms)
+ GET / 200 in 4.0s (next.js: 841ms, application-code: 3.1s)
+ GET / 200 in 750ms (next.js: 517ms, application-code: 233ms)
+ GET / 200 in 1663ms (next.js: 1332ms, application-code: 332ms)
+ GET / 200 in 908ms (next.js: 678ms, application-code: 230ms)
+ GET / 200 in 481ms (next.js: 52ms, application-code: 429ms)
+ GET / 200 in 80ms (next.js: 16ms, application-code: 64ms)
+ GET / 200 in 507ms (next.js: 22ms, application-code: 485ms)
+ GET / 200 in 133ms (next.js: 18ms, application-code: 115ms)
+ GET / 200 in 634ms (next.js: 23ms, application-code: 611ms)
+ GET / 200 in 160ms (next.js: 24ms, application-code: 136ms)
+ GET / 200 in 335ms (next.js: 165ms, application-code: 170ms)
+ GET / 200 in 71ms (next.js: 12ms, application-code: 59ms)
+ GET / 200 in 136ms (next.js: 16ms, application-code: 121ms)
+ GET / 200 in 864ms (next.js: 14ms, application-code: 850ms)
+ GET / 200 in 136ms (next.js: 34ms, application-code: 102ms)
+ GET / 200 in 61ms (next.js: 10ms, application-code: 51ms)
+ GET / 200 in 175ms (next.js: 49ms, application-code: 125ms)
+ GET / 200 in 75ms (next.js: 10ms, application-code: 66ms)
+ GET / 200 in 120ms (next.js: 14ms, application-code: 106ms)
+ GET / 200 in 88ms (next.js: 14ms, application-code: 74ms)
+ GET / 200 in 75ms (next.js: 9ms, application-code: 65ms)
+ GET / 200 in 119ms (next.js: 13ms, application-code: 106ms)
+ GET / 200 in 1870ms (next.js: 265ms, application-code: 1605ms)
+ GET / 200 in 1525ms (next.js: 1355ms, application-code: 169ms)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ./src/components/dashboard/HomeDashboard.tsx
+Module not found: Can't resolve '@/components/dashboard/ProductOverview'
+
+https://nextjs.org/docs/messages/module-not-found
+ GET / 500 in 25.8s (next.js: 25.2s, application-code: 599ms)
+[browser] Uncaught Error: Module not found: Can't resolve '@/components/dashboard/ProductOverview'
+
+https://nextjs.org/docs/messages/module-not-found
+
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+⨯ ./src/components/dashboard/HomeDashboard.tsx
+Module not found: Can't resolve '@/components/dashboard/PersonalizedInsight'
+
+https://nextjs.org/docs/messages/module-not-found
+⨯ ./src/components/dashboard/HomeDashboard.tsx
+Module not found: Can't resolve '@/components/dashboard/PersonalizedInsight'
+
+https://nextjs.org/docs/messages/module-not-found
+⨯ ./src/components/dashboard/HomeDashboard.tsx
+Module not found: Can't resolve '@/components/dashboard/PersonalizedInsight'
+
+https://nextjs.org/docs/messages/module-not-found
+⨯ ./src/components/dashboard/HomeDashboard.tsx
+Module not found: Can't resolve '@/components/dashboard/TrustFooter'
+
+https://nextjs.org/docs/messages/module-not-found
+⨯ ./src/components/dashboard/HomeDashboard.tsx
+Module not found: Can't resolve '@/components/dashboard/TrustFooter'
+
+https://nextjs.org/docs/messages/module-not-found
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 2.1s (next.js: 1030ms, application-code: 1062ms)
+ GET / 200 in 91ms (next.js: 15ms, application-code: 76ms)
+ GET / 200 in 1084ms (next.js: 894ms, application-code: 190ms)
+ GET / 200 in 4.6s (next.js: 3.7s, application-code: 833ms)
+⨯ ./src/components/dashboard/Navigation.tsx
+Error:   x Expected '</', got '{'
+     ,-[C:\Users\admin\Desktop\foodsafety\src\components\dashboard\Navigation.tsx:158:1]
+ 155 |             )}
+ 156 |           </div>
+ 157 | 
+ 158 |           {/* Profile menu */}
+     :           ^
+ 159 |           <div ref={profileRef} className="relative">
+ 160 |             <button
+ 161 |               type="button"
+     `----
+
+Caused by:
+    0: failed to process js file
+    1: Syntax Error
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::__wbindgen_error_new::__wbg_Error_83742b46f01ce22d externref shim (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[28637]:0x11c8461)
+    at wasm.wasm.wasm[45b31adcf0e553c2]::transform_sync (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[1167]:0x64addf)
+    at wasm.wasm.wasm_bindgen_futures[c53a1ecb256a1440]::future_to_promise::<wasm[45b31adcf0e553c2]::transform::{closure#0}>::{closure#0}::{closure#0} (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[12296]:0xf5e6aa)
+    at wasm.wasm.<wasm_bindgen_futures[c53a1ecb256a1440]::queue::Queue>::new::{closure#0} (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[8614]:0xdd9bda)
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::convert::closures::_::invoke::<wasm_bindgen[85fad33f9d8c6813]::JsValue, core[de86a6c1f3de1a5b]::result::Result<(), wasm_bindgen[85fad33f9d8c6813]::JsError>, true> (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[23540]:0x117a3a0)
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::convert::closures::_::invoke::<wasm_bindgen[85fad33f9d8c6813]::JsValue, core[de86a6c1f3de1a5b]::result::Result<(), wasm_bindgen[85fad33f9d8c6813]::JsError>, true> externref shim (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[28645]:0x11c853c)
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::convert::closures::_::invoke::<wasm_bindgen[85fad33f9d8c6813]::JsValue, core[de86a6c1f3de1a5b]::result::Result<(), wasm_bindgen[85fad33f9d8c6813]::JsError>, true> externref shim multivalue shim (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[27049]:0x11ba9b2)
+Import trace for requested module:
+./src/components/dashboard/Navigation.tsx
+./src/components/dashboard/HomeDashboard.tsx
+[browser] ./src/components/dashboard/Navigation.tsx
+Error:   x Expected '</', got '{'
+     ,-[C:\Users\admin\Desktop\foodsafety\src\components\dashboard\Navigation.tsx:158:1]
+ 155 |             )}
+ 156 |           </div>
+ 157 | 
+ 158 |           {/* Profile menu */}
+     :           ^
+ 159 |           <div ref={profileRef} className="relative">
+ 160 |             <button
+ 161 |               type="button"
+     `----
+
+Caused by:
+    0: failed to process js file
+    1: Syntax Error
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::__wbindgen_error_new::__wbg_Error_83742b46f01ce22d externref shim (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[28637]:0x11c8461)
+    at wasm.wasm.wasm[45b31adcf0e553c2]::transform_sync (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[1167]:0x64addf)
+    at wasm.wasm.wasm_bindgen_futures[c53a1ecb256a1440]::future_to_promise::<wasm[45b31adcf0e553c2]::transform::{closure#0}>::{closure#0}::{closure#0} (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[12296]:0xf5e6aa)
+    at wasm.wasm.<wasm_bindgen_futures[c53a1ecb256a1440]::queue::Queue>::new::{closure#0} (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[8614]:0xdd9bda)
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::convert::closures::_::invoke::<wasm_bindgen[85fad33f9d8c6813]::JsValue, core[de86a6c1f3de1a5b]::result::Result<(), wasm_bindgen[85fad33f9d8c6813]::JsError>, true> (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[23540]:0x117a3a0)
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::convert::closures::_::invoke::<wasm_bindgen[85fad33f9d8c6813]::JsValue, core[de86a6c1f3de1a5b]::result::Result<(), wasm_bindgen[85fad33f9d8c6813]::JsError>, true> externref shim (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[28645]:0x11c853c)
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::convert::closures::_::invoke::<wasm_bindgen[85fad33f9d8c6813]::JsValue, core[de86a6c1f3de1a5b]::result::Result<(), wasm_bindgen[85fad33f9d8c6813]::JsError>, true> externref shim multivalue shim (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[27049]:0x11ba9b2)
+Import trace for requested module:
+./src/components/dashboard/Navigation.tsx
+./src/components/dashboard/HomeDashboard.tsx 
+[browser] ./src/components/dashboard/Navigation.tsx
+Error:   x Expected '</', got '{'
+     ,-[C:\Users\admin\Desktop\foodsafety\src\components\dashboard\Navigation.tsx:158:1]
+ 155 |             )}
+ 156 |           </div>
+ 157 | 
+ 158 |           {/* Profile menu */}
+     :           ^
+ 159 |           <div ref={profileRef} className="relative">
+ 160 |             <button
+ 161 |               type="button"
+     `----
+
+Caused by:
+    0: failed to process js file
+    1: Syntax Error
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::__wbindgen_error_new::__wbg_Error_83742b46f01ce22d externref shim (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[28637]:0x11c8461)
+    at wasm.wasm.wasm[45b31adcf0e553c2]::transform_sync (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[1167]:0x64addf)
+    at wasm.wasm.wasm_bindgen_futures[c53a1ecb256a1440]::future_to_promise::<wasm[45b31adcf0e553c2]::transform::{closure#0}>::{closure#0}::{closure#0} (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[12296]:0xf5e6aa)
+    at wasm.wasm.<wasm_bindgen_futures[c53a1ecb256a1440]::queue::Queue>::new::{closure#0} (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[8614]:0xdd9bda)
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::convert::closures::_::invoke::<wasm_bindgen[85fad33f9d8c6813]::JsValue, core[de86a6c1f3de1a5b]::result::Result<(), wasm_bindgen[85fad33f9d8c6813]::JsError>, true> (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[23540]:0x117a3a0)
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::convert::closures::_::invoke::<wasm_bindgen[85fad33f9d8c6813]::JsValue, core[de86a6c1f3de1a5b]::result::Result<(), wasm_bindgen[85fad33f9d8c6813]::JsError>, true> externref shim (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[28645]:0x11c853c)
+    at wasm.wasm.wasm_bindgen[85fad33f9d8c6813]::convert::closures::_::invoke::<wasm_bindgen[85fad33f9d8c6813]::JsValue, core[de86a6c1f3de1a5b]::result::Result<(), wasm_bindgen[85fad33f9d8c6813]::JsError>, true> externref shim multivalue shim (wasm://wasm/wasm.wasm-073f0cd2:wasm-function[27049]:0x11ba9b2)
+Import trace for requested module:
+./src/components/dashboard/Navigation.tsx
+./src/components/dashboard/HomeDashboard.tsx 
+ GET / 200 in 7.5s (next.js: 4.8s, application-code: 2.6s)
+ GET / 200 in 2.4s (next.js: 2.1s, application-code: 231ms)
+ GET / 200 in 2.4s (next.js: 1584ms, application-code: 829ms)
+ GET /search 200 in 1120ms (next.js: 605ms, application-code: 515ms)
+ GET / 200 in 967ms (next.js: 545ms, application-code: 422ms)
+ GET / 200 in 13.4s (next.js: 11.1s, application-code: 2.3s)
+ GET /history 200 in 1346ms (next.js: 767ms, application-code: 579ms)
+ GET / 200 in 7.3s (next.js: 1315ms, application-code: 6.0s)
+ GET / 200 in 300ms (next.js: 59ms, application-code: 241ms)
+ GET / 200 in 144ms (next.js: 14ms, application-code: 130ms)
+ GET / 200 in 623ms (next.js: 276ms, application-code: 347ms)
+ GET / 200 in 134ms (next.js: 16ms, application-code: 118ms)
+ GET / 200 in 132ms (next.js: 16ms, application-code: 116ms)
+ GET / 200 in 86ms (next.js: 13ms, application-code: 73ms)
+ GET / 200 in 88ms (next.js: 19ms, application-code: 69ms)
+ GET / 200 in 126ms (next.js: 18ms, application-code: 108ms)
+ GET / 200 in 4.4s (next.js: 3.4s, application-code: 1093ms)
+ GET / 200 in 5.0s (next.js: 437ms, application-code: 4.6s)
+ GET / 200 in 13.6s (next.js: 93ms, application-code: 13.6s)
+ GET / 200 in 261ms (next.js: 63ms, application-code: 198ms)
+ GET / 200 in 752ms (next.js: 297ms, application-code: 454ms)
+ GET / 200 in 235ms (next.js: 24ms, application-code: 211ms)
+ GET / 200 in 96ms (next.js: 15ms, application-code: 81ms)
+ GET /history 200 in 426ms (next.js: 173ms, application-code: 253ms)
+○ Compiling /profile ...
+ GET /profile 200 in 31.6s (next.js: 31.4s, application-code: 281ms)
+⚠ Fast Refresh had to perform a full reload when top\\foodsafety\\src\\components\\profile\\ProfilePage.tsx","ids":["ProfilePage"]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /history 200 in 2.4s (next.js: 92ms, application-code: 2.3s)
+ GET /history 200 in 7.4s (next.js: 471ms, application-code: 7.0s)
+ GET /history 200 in 2.8s (next.js: 126ms, application-code: 2.7s)
+ GET /history 200 in 610ms (next.js: 26ms, application-code: 585ms)
+ GET /history 200 in 140ms (next.js: 17ms, application-code: 122ms)
+ GET /history 200 in 153ms (next.js: 20ms, application-code: 133ms)
+ GET /history 200 in 529ms (next.js: 37ms, application-code: 493ms)
+ GET /history 200 in 135ms (next.js: 17ms, application-code: 118ms)
+ GET /history 200 in 933ms (next.js: 32ms, application-code: 901ms)
+ GET /history 200 in 1150ms (next.js: 42ms, application-code: 1108ms)
+ GET /history 200 in 2.6s (next.js: 147ms, application-code: 2.5s)
+ GET /history 200 in 5.4s (next.js: 468ms, application-code: 4.9s)
+ GET /history 200 in 136ms (next.js: 15ms, application-code: 120ms)
+ GET /history 200 in 676ms (next.js: 24ms, application-code: 652ms)
+ GET /history 200 in 197ms (next.js: 16ms, application-code: 180ms)
+ GET /history 200 in 5.0s (next.js: 2.9s, application-code: 2.1s)
+○ Compiling /profile ...
+ GET /profile 200 in 10.7s (next.js: 6.4s, application-code: 4.2s)
+ GET /history 200 in 865ms (next.js: 634ms, application-code: 232ms)
+ GET /history 200 in 220ms (next.js: 62ms, application-code: 158ms)
+ GET /profile 200 in 657ms (next.js: 53ms, application-code: 604ms)
+ GET /profile 200 in 324ms (next.js: 43ms, application-code: 281ms)
+ GET /profile 200 in 176ms (next.js: 17ms, application-code: 159ms)
+ GET /profile 200 in 229ms (next.js: 14ms, application-code: 215ms)
+ GET /profile 200 in 860ms (next.js: 225ms, application-code: 635ms)
+⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/profile'
+}
+ GET /profile 500 in 26.1s (next.js: 25.9s, application-code: 210ms)
+ GET /profile 200 in 2.5s (next.js: 547ms, application-code: 1982ms)
+ GET /profile 200 in 1277ms (next.js: 429ms, application-code: 848ms)
+ GET /profile 200 in 1792ms (next.js: 157ms, application-code: 1634ms)
+ GET /profile 200 in 10.0s (next.js: 278ms, application-code: 9.7s)
+ GET /history 200 in 7.3s (next.js: 775ms, application-code: 6.6s)
+ GET /history 200 in 860ms (next.js: 72ms, application-code: 788ms)
+ GET /history 200 in 230ms (next.js: 21ms, application-code: 209ms)
+ GET /scan?open=camera&mode=barcode 200 in 372ms (next.js: 103ms, application-code: 269ms)
+ GET /scan?open=camera&mode=barcode 200 in 150ms (next.js: 17ms, application-code: 133ms)
+○ Compiling /analysis ...
+ GET /analysis?barcode= 200 in 26.2s (next.js: 25.9s, application-code: 294ms)
+ GET /analysis?barcode= 200 in 371ms (next.js: 78ms, application-code: 293ms)
+ GET /scan 200 in 617ms (next.js: 274ms, application-code: 343ms)
+ GET / 200 in 162ms (next.js: 41ms, application-code: 121ms)
+ GET /profile 200 in 884ms (next.js: 316ms, application-code: 568ms)
+ GET /search 200 in 377ms (next.js: 214ms, application-code: 162ms)
+ GET / 200 in 380ms (next.js: 26ms, application-code: 355ms)
+ GET /history 200 in 422ms (next.js: 104ms, application-code: 318ms)
+ GET /search 200 in 801ms (next.js: 36ms, application-code: 765ms)
+ GET / 200 in 879ms (next.js: 110ms, application-code: 770ms)
+ GET /profile 200 in 31.8s (next.js: 23.2s, application-code: 8.6s)
+ GET /profile 200 in 58s (next.js: 57s, application-code: 1121ms)
+ GET /profile 200 in 6.3s (next.js: 29ms, application-code: 6.3s)
+⚠ Fast Refresh had to perform a full reload when top\\foodsafety\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Geist\",\"arguments\":[{\"variable\":\"--font-geist-sans\",\"subsets\":[\"latin\"]}],\"variableName\":\"geistSans\"}","ids":[]}, top\\foodsafety\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Geist_Mono\",\"arguments\":[{\"variable\":\"--font-geist-mono\",\"subsets\":[\"latin\"]}],\"variableName\":\"geistMono\"}","ids":[]}, top\\foodsafety\\src\\app\\globals.css","ids":[]}, top\\foodsafety\\src\\components\\ThemeProvider.tsx","ids":["ThemeProvider"]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /profile 200 in 28.4s (next.js: 74ms, application-code: 28.4s)
+ GET /profile 200 in 3.2s (next.js: 2.9s, application-code: 350ms)
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /profile 200 in 2.1s (next.js: 15ms, application-code: 2.1s)
+ GET /profile 200 in 969ms (next.js: 723ms, application-code: 246ms)
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⨯ unhandledRejection: Error: Error: invalid type: boolean `false`, expected enum CodeFrameColorMode
+    at ignore-listed frames
+ GET /profile 500 in 1050ms (next.js: 14ms, application-code: 1036ms)
+[browser] Uncaught ReferenceError: Cannot access 'resolved' before initialization
+    at ThemeProvider (webpack-internal:///(app-pages-browser)/./src/components/ThemeProvider.tsx:43:75)
+    at RootLayout (about://React/Server/webpack-internal:///(rsc)/./src/app/layout.tsx?4:30:98)
+⨯ unhandledRejection: Error: Error: invalid type: boolean `false`, expected enum CodeFrameColorMode
+    at ignore-listed frames
+ GET /profile 500 in 2.5s (next.js: 225ms, application-code: 2.3s)
+[browser] Uncaught ReferenceError: Cannot access 'resolved' before initialization
+    at ThemeProvider (webpack-internal:///(app-pages-browser)/./src/components/ThemeProvider.tsx:43:75)
+    at RootLayout (about://React/Server/webpack-internal:///(rsc)/./src/app/layout.tsx?4:30:98)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ unhandledRejection: Error: Error: invalid type: boolean `false`, expected enum CodeFrameColorMode
+    at ignore-listed frames
+ GET /profile 500 in 1620ms (next.js: 948ms, application-code: 672ms)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /profile 200 in 37.3s (next.js: 35.5s, application-code: 1850ms)
+ GET /profile 200 in 1184ms (next.js: 84ms, application-code: 1100ms)
+ GET / 200 in 133ms (next.js: 60ms, application-code: 73ms)
+ GET /search 200 in 152ms (next.js: 69ms, application-code: 83ms)
+ GET / 200 in 77ms (next.js: 19ms, application-code: 58ms)
+ GET /history 200 in 1779ms (next.js: 880ms, application-code: 899ms)
+ GET /profile 200 in 37.1s (next.js: 36.9s, application-code: 153ms)
+ GET /profile 200 in 124ms (next.js: 16ms, application-code: 109ms)
