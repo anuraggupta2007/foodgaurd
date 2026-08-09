@@ -1,15 +1,15 @@
+import { AuthGuard } from "@/components/AuthGuard";
 import { ProductAnalysisPage } from "@/components/analysis/ProductAnalysisPage";
 
-export default async function AnalysisRoute({
-  searchParams,
-}: {
+type PageProps = {
   searchParams: Promise<{ barcode?: string; lang?: string }>;
-}) {
-  const params = await searchParams;
+};
+
+export default async function AnalysisRoute({ searchParams }: PageProps) {
+  const { barcode, lang } = await searchParams;
   return (
-    <ProductAnalysisPage
-      barcode={params.barcode ?? ""}
-      lang={params.lang ?? "en"}
-    />
+    <AuthGuard>
+      <ProductAnalysisPage barcode={barcode ?? ""} lang={lang} />
+    </AuthGuard>
   );
 }

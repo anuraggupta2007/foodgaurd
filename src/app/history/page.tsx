@@ -1,10 +1,15 @@
+import { AuthGuard } from "@/components/AuthGuard";
 import { HistoryPage } from "@/components/history/HistoryPage";
 
-export default async function HistoryRoute({
-  searchParams,
-}: {
+type PageProps = {
   searchParams: Promise<{ lang?: string }>;
-}) {
-  const params = await searchParams;
-  return <HistoryPage lang={params.lang ?? "en"} />;
+};
+
+export default async function HistoryRoute({ searchParams }: PageProps) {
+  const { lang } = await searchParams;
+  return (
+    <AuthGuard>
+      <HistoryPage lang={lang} />
+    </AuthGuard>
+  );
 }

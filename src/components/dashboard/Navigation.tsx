@@ -3,9 +3,11 @@
 import { useState, useRef, useEffect } from "react";
 import { Home, User, Globe, ChevronDown, LogOut, Settings } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { APP_LANGUAGES } from "@/data/languages";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { useAuth } from "@/components/AuthProvider";
 
 type NavItem = {
   key: string;
@@ -31,6 +33,8 @@ export function TopNavigation({
   const [profileOpen, setProfileOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
   const profileRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
+  const { logout } = useAuth();
 
   const currentLang = APP_LANGUAGES.find((l) => l.id === currentLanguage) ?? APP_LANGUAGES[0];
 
@@ -185,6 +189,10 @@ export function TopNavigation({
                 </Link>
                 <button
                   type="button"
+                  onClick={() => {
+                    logout();
+                    router.push("/login");
+                  }}
                   className="flex w-full items-center gap-2.5 px-3.5 py-2.5 text-sm text-foreground transition-colors hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                 >
                   <LogOut className="size-4 text-muted-foreground" aria-hidden="true" />

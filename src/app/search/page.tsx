@@ -1,15 +1,10 @@
+import { AuthGuard } from "@/components/AuthGuard";
 import { SearchPage } from "@/components/search/SearchPage";
 
-export default async function SearchRoute({
-  searchParams,
-}: {
-  searchParams: Promise<{ q?: string; lang?: string }>;
-}) {
-  const params = await searchParams;
+export default function SearchRoute() {
   return (
-    <SearchPage
-      lang={params.lang ?? "en"}
-      initialQuery={params.q ?? ""}
-    />
+    <AuthGuard>
+      <SearchPage />
+    </AuthGuard>
   );
 }

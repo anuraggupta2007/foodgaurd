@@ -87,10 +87,11 @@ export function LoginForm({
           password !== "anuraggod"
         ) {
           setLoading(false);
-          setServerError("Invalid email or password. Try anuraggod2007@gmail.com / anuraggod");
+          setServerError("Invalid email or password.");
           return;
         }
         setLoading(false);
+        localStorage.setItem("foodgaurd-auth", "true");
         router.push("/onboarding");
       }, 1500);
     },

@@ -1,9 +1,5 @@
-import type { Metadata } from "next";
+import { AuthGuard } from "@/components/AuthGuard";
 import { AdminDashboard } from "@/components/admin/AdminDashboard";
-
-export const metadata: Metadata = {
-  title: "Admin Dashboard — FoodSafe",
-};
 
 type PageProps = {
   searchParams: Promise<{ lang?: string }>;
@@ -11,5 +7,9 @@ type PageProps = {
 
 export default async function AdminRoute({ searchParams }: PageProps) {
   const { lang } = await searchParams;
-  return <AdminDashboard lang={lang} />;
+  return (
+    <AuthGuard>
+      <AdminDashboard lang={lang} />
+    </AuthGuard>
+  );
 }

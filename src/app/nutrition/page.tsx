@@ -1,9 +1,5 @@
-import type { Metadata } from "next";
+import { AuthGuard } from "@/components/AuthGuard";
 import { NutritionPage } from "@/components/nutrition/NutritionPage";
-
-export const metadata: Metadata = {
-  title: "Nutrition Details",
-};
 
 type PageProps = {
   searchParams: Promise<{ barcode?: string; lang?: string }>;
@@ -11,5 +7,9 @@ type PageProps = {
 
 export default async function NutritionRoute({ searchParams }: PageProps) {
   const { barcode, lang } = await searchParams;
-  return <NutritionPage barcode={barcode ?? ""} lang={lang} />;
+  return (
+    <AuthGuard>
+      <NutritionPage barcode={barcode ?? ""} lang={lang} />
+    </AuthGuard>
+  );
 }

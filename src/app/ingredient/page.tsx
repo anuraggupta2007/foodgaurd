@@ -1,9 +1,5 @@
-import type { Metadata } from "next";
+import { AuthGuard } from "@/components/AuthGuard";
 import { IngredientPage } from "@/components/ingredient/IngredientPage";
-
-export const metadata: Metadata = {
-  title: "Ingredient Details",
-};
 
 type PageProps = {
   searchParams: Promise<{ id?: string; product?: string; lang?: string }>;
@@ -12,10 +8,8 @@ type PageProps = {
 export default async function IngredientRoute({ searchParams }: PageProps) {
   const { id, product, lang } = await searchParams;
   return (
-    <IngredientPage
-      ingredientId={id ?? ""}
-      productBarcode={product}
-      lang={lang}
-    />
+    <AuthGuard>
+      <IngredientPage ingredientId={id ?? ""} productBarcode={product} lang={lang} />
+    </AuthGuard>
   );
 }
