@@ -44,10 +44,10 @@ export function AlternativeSuggestions({
         {suggestions.map((s, i) => (
           <div
             key={i}
-            className="flex items-start gap-3 rounded-xl border border-green-200 bg-green-50/50 p-3"
+            className="flex items-start gap-3 rounded-xl border border-green-200 bg-green-50/50 p-3 dark:border-green-900/50 dark:bg-green-950/40"
           >
             <Leaf
-              className="size-4 shrink-0 text-green-600 mt-0.5"
+              className="size-4 shrink-0 text-green-600 dark:text-green-400 mt-0.5"
               aria-hidden="true"
             />
             <div>

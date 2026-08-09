@@ -12,11 +12,11 @@ type SourceDetailModalProps = {
 };
 
 const sourceTypeColors: Record<SourceCategory, string> = {
-  government: "bg-blue-50 text-blue-700",
-  regulatory: "bg-purple-50 text-purple-700",
-  scientific: "bg-teal-50 text-teal-700",
-  product_information: "bg-gray-50 text-gray-600",
-  food_database: "bg-orange-50 text-orange-700",
+  government: "bg-blue-50 text-blue-700 dark:bg-blue-950/40 dark:text-blue-400",
+  regulatory: "bg-purple-50 text-purple-700 dark:bg-purple-950/40 dark:text-purple-400",
+  scientific: "bg-teal-50 text-teal-700 dark:bg-teal-950/40 dark:text-teal-400",
+  product_information: "bg-gray-50 text-gray-600 dark:bg-gray-900/40 dark:text-gray-400",
+  food_database: "bg-orange-50 text-orange-700 dark:bg-orange-950/40 dark:text-orange-400",
 };
 
 export function SourceDetailModal({

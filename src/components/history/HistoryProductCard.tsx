@@ -30,7 +30,7 @@ export function HistoryProductCard({
       ? CONCERN_COLORS.moderate
       : product.assessment === "low"
         ? CONCERN_COLORS.low
-        : { bg: "bg-gray-50", text: "text-gray-700", dot: "bg-gray-400" };
+        : { bg: "bg-gray-50 dark:bg-gray-900/40", text: "text-gray-700 dark:text-gray-400", dot: "bg-gray-400" };
   const concernLabel =
     product.assessment === "high"
       ? "High Concern"
@@ -136,7 +136,7 @@ export function HistoryProductCard({
                 setMenuOpen(false);
                 onDelete(product.id);
               }}
-              className="flex w-full items-center gap-2 rounded-lg px-3 py-2 text-sm text-red-600 transition-colors hover:bg-red-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
+              className="flex w-full items-center gap-2 rounded-lg px-3 py-2 text-sm text-red-600 transition-colors hover:bg-red-50 dark:hover:bg-red-950/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
             >
               <Trash2 className="size-4" aria-hidden="true" />
               {deleteLabels.deleteAction}

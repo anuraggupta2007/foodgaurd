@@ -486,3 +486,90 @@ Import trace for requested module:
  GET /history 200 in 1779ms (next.js: 880ms, application-code: 899ms)
  GET /profile 200 in 37.1s (next.js: 36.9s, application-code: 153ms)
  GET /profile 200 in 124ms (next.js: 16ms, application-code: 109ms)
+ GET / 200 in 1037ms (next.js: 71ms, application-code: 965ms)
+ GET /history 200 in 2.9s (next.js: 1040ms, application-code: 1858ms)
+ GET /search 200 in 1011ms (next.js: 237ms, application-code: 774ms)
+ GET /history 200 in 1470ms (next.js: 464ms, application-code: 1006ms)
+ GET /profile 200 in 407ms (next.js: 41ms, application-code: 366ms)
+ GET /search 200 in 1985ms (next.js: 40ms, application-code: 1944ms)
+ GET / 200 in 633ms (next.js: 25ms, application-code: 609ms)
+ GET / 200 in 933ms (next.js: 783ms, application-code: 150ms)
+ GET /history 200 in 9.2s (next.js: 9.0s, application-code: 118ms)
+ GET /history 200 in 88ms (next.js: 11ms, application-code: 77ms)
+ GET / 200 in 1117ms (next.js: 815ms, application-code: 303ms)
+ GET / 200 in 131ms (next.js: 17ms, application-code: 113ms)
+ GET /history 200 in 11.5s (next.js: 4.6s, application-code: 6.8s)
+ GET /profile 200 in 3.5s (next.js: 1237ms, application-code: 2.2s)
+ GET / 200 in 629ms (next.js: 446ms, application-code: 182ms)
+ GET / 200 in 1056ms (next.js: 702ms, application-code: 354ms)
+ GET / 200 in 3.5s (next.js: 458ms, application-code: 3.0s)
+ GET / 200 in 224ms (next.js: 17ms, application-code: 207ms)
+ GET / 200 in 257ms (next.js: 55ms, application-code: 202ms)
+ GET / 200 in 1966ms (next.js: 76ms, application-code: 1890ms)
+ GET / 200 in 166ms (next.js: 18ms, application-code: 148ms)
+ GET / 200 in 323ms (next.js: 34ms, application-code: 289ms)
+ GET / 200 in 297ms (next.js: 21ms, application-code: 276ms)
+ GET / 200 in 821ms (next.js: 61ms, application-code: 760ms)
+ GET / 200 in 580ms (next.js: 19ms, application-code: 561ms)
+ GET / 200 in 4.1s (next.js: 53ms, application-code: 4.0s)
+ GET / 200 in 3.8s (next.js: 16ms, application-code: 3.8s)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <HomePage>
+                <HomeDashboard>
+                  <div className="flex min-h...">
+                    <TopNavigation items={[...]} activeKey="home" currentLanguage="en" ...>
+                      <nav className="hidden bor..." aria-label="Main navig...">
+                        <div className="mx-auto fl...">
+                          <LinkComponent>
+                          <div>
+                          <div className="flex items...">
+                            <ThemeToggle>
+                              <div className="inline-fle...">
+                                <button>
+                                <button
+                                  type="button"
+                                  onClick={function onClick}
++                                 className="inline-flex items-center justify-center rounded-md px-2 py-1.5 text-sm fo..."
+-                                 className="inline-flex items-center justify-center rounded-md px-2 py-1.5 text-sm fo..."
+                                  aria-label="Dark"
+                                  title="Dark"
+                                >
+                                <button
+                                  type="button"
+                                  onClick={function onClick}
++                                 className="inline-flex items-center justify-center rounded-md px-2 py-1.5 text-sm fo..."
+-                                 className="inline-flex items-center justify-center rounded-md px-2 py-1.5 text-sm fo..."
+                                  aria-label="System"
+                                  title="System"
+                                >
+                            ...
+                    ...
+            ...
+          ...
+ 
+ GET / 200 in 203ms (next.js: 41ms, application-code: 162ms)
+ GET / 200 in 380ms (next.js: 68ms, application-code: 312ms)
+ GET / 200 in 201ms (next.js: 19ms, application-code: 182ms)
+ GET /search 200 in 669ms (next.js: 342ms, application-code: 327ms)
+ GET / 200 in 333ms (next.js: 36ms, application-code: 296ms)
+ GET /search 200 in 1536ms (next.js: 22ms, application-code: 1514ms)
+ GET /search 200 in 1021ms (next.js: 853ms, application-code: 168ms)
+ GET / 200 in 379ms (next.js: 101ms, application-code: 278ms)

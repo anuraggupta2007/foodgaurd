@@ -12,9 +12,9 @@ type CategoryTabsProps = {
 const TABS = ["all", "high", "moderate", "low"] as const;
 
 const TAB_ACTIVE_COLORS: Record<string, string> = {
-  high: "bg-red-50 border-red-200 text-red-700",
-  moderate: "bg-amber-50 border-amber-200 text-amber-700",
-  low: "bg-green-50 border-green-200 text-green-700",
+  high: "bg-red-50 dark:bg-red-950/40 border-red-200 dark:border-red-900/50 text-red-700 dark:text-red-400",
+  moderate: "bg-amber-50 dark:bg-amber-950/40 border-amber-200 dark:border-amber-900/50 text-amber-700 dark:text-amber-400",
+  low: "bg-green-50 dark:bg-green-950/40 border-green-200 dark:border-green-900/50 text-green-700 dark:text-green-400",
 };
 
 export function CategoryTabs({ labels, active, onChange }: CategoryTabsProps) {

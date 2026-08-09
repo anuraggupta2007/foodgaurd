@@ -20,27 +20,27 @@ const levels: {
     key: "high",
     icon: AlertTriangle,
     colors: {
-      card: "border-red-200 bg-red-50/50",
-      icon: "text-red-600",
-      text: "text-red-700",
+      card: "border-red-200 bg-red-50/50 dark:border-red-900/50 dark:bg-red-950/40",
+      icon: "text-red-600 dark:text-red-400",
+      text: "text-red-700 dark:text-red-400",
     },
   },
   {
     key: "moderate",
     icon: Minus,
     colors: {
-      card: "border-amber-200 bg-amber-50/50",
-      icon: "text-amber-600",
-      text: "text-amber-700",
+      card: "border-amber-200 bg-amber-50/50 dark:border-amber-900/50 dark:bg-amber-950/40",
+      icon: "text-amber-600 dark:text-amber-400",
+      text: "text-amber-700 dark:text-amber-400",
     },
   },
   {
     key: "low",
     icon: CheckCircle,
     colors: {
-      card: "border-green-200 bg-green-50/50",
-      icon: "text-green-600",
-      text: "text-green-700",
+      card: "border-green-200 bg-green-50/50 dark:border-green-900/50 dark:bg-green-950/40",
+      icon: "text-green-600 dark:text-green-400",
+      text: "text-green-700 dark:text-green-400",
     },
   },
 ];

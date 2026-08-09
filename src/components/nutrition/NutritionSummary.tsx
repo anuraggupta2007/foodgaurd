@@ -19,12 +19,12 @@ const summaryFields: (keyof DetailedNutrition)[] = [
 ];
 
 const fieldColors: Record<string, { bg: string; text: string }> = {
-  calories: { bg: "bg-primary/5", text: "text-foreground" },
-  totalSugars: { bg: "bg-amber-50", text: "text-amber-700" },
-  sodium: { bg: "bg-amber-50", text: "text-amber-700" },
-  saturatedFat: { bg: "bg-amber-50", text: "text-amber-700" },
-  protein: { bg: "bg-green-50", text: "text-green-700" },
-  dietaryFibre: { bg: "bg-green-50", text: "text-green-700" },
+  calories: { bg: "bg-primary/5 dark:bg-primary/10", text: "text-foreground" },
+  totalSugars: { bg: "bg-amber-50 dark:bg-amber-950/40", text: "text-amber-700 dark:text-amber-400" },
+  sodium: { bg: "bg-amber-50 dark:bg-amber-950/40", text: "text-amber-700 dark:text-amber-400" },
+  saturatedFat: { bg: "bg-amber-50 dark:bg-amber-950/40", text: "text-amber-700 dark:text-amber-400" },
+  protein: { bg: "bg-green-50 dark:bg-green-950/40", text: "text-green-700 dark:text-green-400" },
+  dietaryFibre: { bg: "bg-green-50 dark:bg-green-950/40", text: "text-green-700 dark:text-green-400" },
 };
 
 export function NutritionSummary({ nutrition, labels }: NutritionSummaryProps) {

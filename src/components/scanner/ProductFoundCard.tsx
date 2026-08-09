@@ -20,12 +20,12 @@ export function ProductFoundCard({
   onScanAgain,
 }: ProductFoundCardProps) {
   return (
-    <div className="flex flex-col gap-5 rounded-2xl border border-green-200 bg-green-50 p-6 shadow-sm">
+    <div className="flex flex-col gap-5 rounded-2xl border border-green-200 bg-green-50 p-6 shadow-sm dark:border-green-900/50 dark:bg-green-950/40">
       <div className="flex items-start gap-3">
-        <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-green-100">
-          <CheckCircle2 className="size-5 text-green-600" aria-hidden="true" />
+        <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-green-100 dark:bg-green-900/50">
+          <CheckCircle2 className="size-5 text-green-600 dark:text-green-400" aria-hidden="true" />
         </div>
-        <h3 className="text-base font-semibold text-green-800 pt-2">{title}</h3>
+        <h3 className="text-base font-semibold text-green-800 dark:text-green-300 pt-2">{title}</h3>
       </div>
       <div className="rounded-xl border border-green-200 bg-background p-4">
         <h4 className="text-lg font-semibold text-foreground">{product.name}</h4>

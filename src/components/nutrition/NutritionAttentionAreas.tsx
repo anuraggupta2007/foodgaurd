@@ -16,17 +16,17 @@ const severityConfig: Record<
 > = {
   low: {
     icon: Minus,
-    colors: { bg: "bg-amber-50", text: "text-amber-700", border: "border-amber-200" },
+    colors: { bg: "bg-amber-50 dark:bg-amber-950/40", text: "text-amber-700 dark:text-amber-400", border: "border-amber-200 dark:border-amber-900/50" },
     label: "Worth noting",
   },
   moderate: {
     icon: AlertCircle,
-    colors: { bg: "bg-amber-50", text: "text-amber-700", border: "border-amber-200" },
+    colors: { bg: "bg-amber-50 dark:bg-amber-950/40", text: "text-amber-700 dark:text-amber-400", border: "border-amber-200 dark:border-amber-900/50" },
     label: "Deserves attention",
   },
   high: {
     icon: AlertTriangle,
-    colors: { bg: "bg-red-50", text: "text-red-700", border: "border-red-200" },
+    colors: { bg: "bg-red-50 dark:bg-red-950/40", text: "text-red-700 dark:text-red-400", border: "border-red-200 dark:border-red-900/50" },
     label: "Significant",
   },
 };

@@ -30,7 +30,7 @@ export function DeleteConfirmation({
         onClick={(e) => e.stopPropagation()}
       >
         <div className="mb-4 flex items-center gap-3">
-          <div className="flex size-10 items-center justify-center rounded-full bg-red-50">
+          <div className="flex size-10 items-center justify-center rounded-full bg-red-50 dark:bg-red-950/40">
             <AlertTriangle className="size-5 text-red-600" aria-hidden="true" />
           </div>
           <h3 className="text-base font-semibold text-foreground">

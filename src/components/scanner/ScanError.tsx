@@ -18,13 +18,13 @@ export function ScanError({
   onEnterManually,
 }: ScanErrorProps) {
   return (
-    <div className="flex flex-col items-center gap-6 rounded-2xl border border-red-200 bg-red-50 p-8 text-center">
-      <div className="flex size-16 items-center justify-center rounded-2xl bg-red-100">
-        <AlertTriangle className="size-8 text-red-600" aria-hidden="true" />
+    <div className="flex flex-col items-center gap-6 rounded-2xl border border-red-200 bg-red-50 p-8 text-center dark:border-red-900/50 dark:bg-red-950/40">
+      <div className="flex size-16 items-center justify-center rounded-2xl bg-red-100 dark:bg-red-900/50">
+        <AlertTriangle className="size-8 text-red-600 dark:text-red-400" aria-hidden="true" />
       </div>
       <div>
-        <h3 className="text-lg font-semibold text-red-800">{title}</h3>
-        <p className="mt-2 text-sm text-red-600 max-w-xs mx-auto">{description}</p>
+        <h3 className="text-lg font-semibold text-red-800 dark:text-red-300">{title}</h3>
+        <p className="mt-2 text-sm text-red-600 dark:text-red-400 max-w-xs mx-auto">{description}</p>
       </div>
       <div className="flex flex-col gap-3 w-full max-w-xs sm:flex-row">
         <button
